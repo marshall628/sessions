@@ -60,6 +60,7 @@ func NewCookieStore(keyPairs ...[]byte) *CookieStore {
 	}
 
 	cs.MaxAge(cs.Options.MaxAge)
+	fmt.println(cs)
 	return cs
 }
 
